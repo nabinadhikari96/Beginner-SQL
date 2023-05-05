@@ -1,5 +1,10 @@
 ---- group by and order by
 --The GROUP BY clause is used to group rows that have the same values in one or more columns into summary rows.
+
+Summary
+-Use the ORDER BY clause to sort rows returned by the SELECT clause.
+-Use the ASC option to sort rows in ascending order and DESC option to sort rows in descending order.
+
 --The ORDER BY clause is used to sort the result set by one or more columns
 SELECT *
   FROM EMP_SALARY
