@@ -1,0 +1,16 @@
+-- where statement like =,<>,>=,<=, and , or ,like,null,in,not null
+
+select * from EMP_DET where name='nabin'
+select * from EMP_SALARY where salary>1452
+select * from EMP_DET where JOB_TITLE='cleaner' and name='naresh'
+select * from EMP_DET where JOB_TITLE='cleaner' or name='nabin'
+
+-- name start with n(with the help of like)
+select * from EMP_DET where name like 'n%'
+
+-- null helps to find whether specific columns is empty or not
+select * from EMP_DET where name is not null
+select * from EMP_DET where name is null
+
+--  in helps to find values in table
+select * from EMP_DET where name in ('nabin','naresh')
