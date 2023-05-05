@@ -1,0 +1,9 @@
+-- select statement as *,top,distinct,count,as ,max,min,avg
+select * from EMP_SALARY
+
+select top 5* from EMP_SALARY 
+select distinct(job_title) from EMP_SALARY
+select count(job_title) as count_emp from EMP_SALARY
+select max(salary) as salary from EMP_SALARY
+select min(salary) as salary from EMP_SALARY
+select avg(salary) as salary from EMP_SALARY
