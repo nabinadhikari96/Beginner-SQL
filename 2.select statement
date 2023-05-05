@@ -1,3 +1,8 @@
+Summary
+-Use the SQL SELECT statment to select data from a table.
+-To select data from a table, specify the table name in the FROM clause and a list of column in the SELECT clause.
+-The SELECT * is the shorthand of the SELECT all columns in a table.
+
 -- select statement as *,top,distinct,count,as ,max,min,avg
 select * from EMP_SALARY
 
